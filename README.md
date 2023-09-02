@@ -1,11 +1,12 @@
 # isec6000-assignment1-part1
-# There is two part of assignment1,this is part1 Part1 is the environmental construction and preparation of part2 in Windows system.
+There is two part of assignment1,this is part1 
+Part1 is the environmental construction and preparation of part2 in Windows system.
 
 Outline: Build, configure, deploy, and maintain a comprehensive Saleor application suite on a Linux server using the knowledge acquired in Docker containerization, Kubernetes orchestration, integrated security concepts, and the Google Kubernetes Engine (GKE) environment.
 
 Task1:Set Up Initial Infrastructure 
 1. Create a Kubernetes Cluster on GKE
-   [image](https://github.com/armhigher/isec6000-assignment1-part1/assets/130580265/4e143a76-8813-4caa-955b-c1456b0aeeda)
+   ![image](https://github.com/armhigher/isec6000-assignment1-part1/assets/130580265/4e143a76-8813-4caa-955b-c1456b0aeeda)
    
 3. Configure your cluster settings, such as the cluster name, location, and node pool configuration.
    ![image](https://github.com/armhigher/isec6000-assignment1-part1/assets/130580265/b9e8e2db-7841-4cf0-8db5-fdd11ac993f3)
