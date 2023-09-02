@@ -52,9 +52,9 @@ Task1:Set Up Initial Infrastructure
 
 recap:
 Simplified Steps to Connect to a Kubernetes Cluster
- 1. Install kubectl:Steps:Install the kubectl command-line tool on your local computer.Reason: kubectl is the primary tool for interacting with Kubernetes clusters.
- 2.Install gcloud command-line tool (if not already installed):Steps: Install Google Cloud's gcloud command-line tool on your local computer. Reason: gcloud is used for managing Google Cloud resources and obtaining credentials for Kubernetes clusters.
- 3.Log in to your Google Cloud account: Steps: Use the gcloud command-line tool to log in to your Google Cloud account.Reason: Logging in to your account is necessary to gain access to your Google Cloud project.
- 4.Obtain cluster credentials:Steps: Run the command "gcloud container clusters get-credentials <cluster-name> --zone <cluster-zone> --project <project-id>," where <cluster-name> is the name of your Kubernetes cluster, <cluster-zone> is the region where the cluster is located, and <project-id> is your Google Cloud project's ID.Reason: This step automatically generates a kubeconfig configuration file and adds cluster information and credentials to the configuration for use by kubectl.
- 5.Verify the connection:Steps: Run the "kubectl cluster-info" command to ensure a successful connection to the Kubernetes cluster.Reason: This command displays information about your cluster to verify that the connection is working correctly.
+ #1. Install kubectl:Steps:Install the kubectl command-line tool on your local computer.Reason: kubectl is the primary tool for interacting with Kubernetes clusters.
+ #2.Install gcloud command-line tool (if not already installed):Steps: Install Google Cloud's gcloud command-line tool on your local computer. Reason: gcloud is used for managing Google Cloud resources and obtaining credentials for Kubernetes clusters.
+ #3.Log in to your Google Cloud account: Steps: Use the gcloud command-line tool to log in to your Google Cloud account.Reason: Logging in to your account is necessary to gain access to your Google Cloud project.
+ #4.Obtain cluster credentials:Steps: Run the command "gcloud container clusters get-credentials <cluster-name> --zone <cluster-zone> --project <project-id>," where <cluster-name> is the name of your Kubernetes cluster, <cluster-zone> is the region where the cluster is located, and <project-id> is your Google Cloud project's ID.Reason: This step automatically generates a kubeconfig configuration file and adds cluster information and credentials to the configuration for use by kubectl.
+ #5.Verify the connection:Steps: Run the "kubectl cluster-info" command to ensure a successful connection to the Kubernetes cluster.Reason: This command displays information about your cluster to verify that the connection is working correctly.
 
