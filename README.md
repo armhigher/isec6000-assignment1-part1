@@ -34,12 +34,13 @@ Task1:Set Up Initial Infrastructure
            <cluster-zone> is the region where the cluster is located
            <project-id> is your Google Cloud project's ID.
    the place to find the command:
-   [1] click the cluster detail:
+       click the cluster detail:
        ![image](https://github.com/armhigher/isec6000-assignment1-part1/assets/130580265/7257b710-8dfb-4c85-9ab2-cb0a2c6d730b)
 
        then
-       ![image](https://github.com/armhigher/isec6000-assignment1-part1/assets/130580265/674c0596-b8cb-4902-8087-c6a19201e1b4)
-       ![image](https://github.com/armhigher/isec6000-assignment1-part1/assets/130580265/907e98fb-0208-430b-bdf5-efd6975fc070)
+![image](https://github.com/armhigher/isec6000-assignment1-part1/assets/130580265/dcf3f8dd-cb83-412d-adc6-1e2117ea7bb3)
+![image](https://github.com/armhigher/isec6000-assignment1-part1/assets/130580265/025dd936-377a-4f5f-9d09-2fdca44d9883)
+
    enter the command in the   Google cloud SDK shell
    result:
       ![image](https://github.com/armhigher/isec6000-assignment1-part1/assets/130580265/d17845c9-80ce-4ee5-a4c4-a51a010e99b8)
